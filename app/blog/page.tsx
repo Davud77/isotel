@@ -5,7 +5,7 @@ import { genPageMetadata } from 'app/seo'
 
 const POSTS_PER_PAGE = 20
 
-export const metadata = genPageMetadata({ title: 'Blog' })
+export const metadata = genPageMetadata({ title: 'Статьи' })
 
 export default function BlogPage() {
   const posts = allCoreContent(sortPosts(allBlogs))
